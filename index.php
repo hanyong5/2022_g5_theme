@@ -14,6 +14,8 @@ if(G5_COMMUNITY_USE === false) {
 
 include_once(G5_THEME_PATH.'/head.php');
 ?>
+
+
 <h2>test</h2>
 
 <?php
@@ -22,6 +24,7 @@ echo "<br>";
 echo G5_THEME_IMG_URL."<BR>";
 echo G5_THEME_CSS_URL."<BR>";
 echo G5_THEME_JS_URL."<BR>";
+echo G5_BBS_URL."<BR>";
 ?>
 
 
