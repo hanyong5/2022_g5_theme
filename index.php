@@ -14,7 +14,12 @@ if(G5_COMMUNITY_USE === false) {
 
 include_once(G5_THEME_PATH.'/head.php');
 ?>
-
+<style>
+    .visual{height: 200px;background: skyblue;}
+</style>
+<div class="visual">
+    test
+</div>
 
 <h2>test</h2>
 

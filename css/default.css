@@ -130,11 +130,18 @@ border:1px solid #558ab7 !important;
 #wrapper {}
 #container_wr:after {display:block;visibility:hidden;clear:both;content:""}
 #container_wr {margin:0 auto;zoom:1}
-#aside {float:right;width:235px;padding:0;height:100%;margin:20px 0 20px 20px}
 
-#container {position:relative;float:left;min-height:500px;height:auto !important;margin:20px 0;font-size:1em;width:930px;zoom:1}
-#container:after {display:block;visibility:hidden;clear:both;content:""}
-#container_title {font-size:1.333em;margin:0 auto;font-weight:bold}
+#container {
+  position:relative;min-height:500px;
+  height:auto !important;
+  font-size:1em;width:100%;zoom:1;
+  padding: 30px 20px;
+}
+#container_title {
+  font-size:1.333em;margin:0 auto;font-weight:bold;
+  height: 100px;background: pink;display: flex;justify-content: center;
+  align-items: center;
+}
 #container_title span {margin:0 auto 10px;display:block;line-height:30px}
 
 .lt_wr {width:32%}
