@@ -20,6 +20,9 @@ $list_count = (is_array($list) && $list) ? count($list) : 0;
                     <h4><? echo $list[$i]['subject']; ?>
                     <? if ($list[$i]['icon_new']) echo "<span class=\"new_icon\">N<span class=\"sound_only\">새글</span></span>"; ?>
                     </h4>
+                    <div>
+                    <? echo get_text(cut_str(strip_tags($list[$i]['wr_content']),80)); ?> 
+            </div>
                     <p><?php echo $list[$i]['datetime2'] ?></p>
                 </a>
             </li>
