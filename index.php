@@ -18,8 +18,14 @@ include_once(G5_THEME_PATH.'/head.php');
     .visual{height: 200px;background: skyblue;}
 </style>
 <div class="visual">
-    test
+    test안녕하세요. 
 </div>
+<ul>
+    <li>menu1</li>
+    <li>menu1</li>
+    <li>menu1</li>
+    <li>menu1</li>
+</ul>
 
 <h2>testdddddddddddddddd</h2>
 
