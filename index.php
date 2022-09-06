@@ -21,7 +21,7 @@ include_once(G5_THEME_PATH.'/head.php');
     test
 </div>
 
-<h2>test</h2>
+<h2>testdddddddddddddddd</h2>
 
 <?php
 echo G5_THEME_PATH;
